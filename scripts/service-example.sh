@@ -5,8 +5,8 @@ START_MESSAGE='check container status.'
 DOCKER_COMPOSE_FILE='./docker-compose.yml'
 TMP_DIR=${PWD}
 # CHANGE Directory.
-USER_SERVICE=${HOME}/dev/user
-ADMIN_SERVICE=${HOME}/dev/admin
+USER_SERVICE=${HOME}/dev/path/user
+ADMIN_SERVICE=${HOME}/dev/path/admin
 
 # @param {string} message
 showMessage() {
