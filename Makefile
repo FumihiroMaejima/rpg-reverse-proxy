@@ -53,13 +53,10 @@ mysql:
 
 
 ##############################
-# circle ci
+# service
 ##############################
-circleci:
-	cd app/backend && circleci build
-
-ci:
-	circleci build
+service:
+	sh ./scripts/service.sh
 
 ##############################
 # swagger docker container
